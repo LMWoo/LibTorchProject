@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="tutorial">
+      <UniqueIdentifier>{610dde8c-51b6-420d-ba0b-cf07432d5a8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{0df82040-a1ad-41b1-a790-b772f053924b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Loss">
+      <UniqueIdentifier>{4fce2d6b-ab70-4189-ac64-97f0a4d776f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{0346ee7a-d214-44ff-8e49-718f3d7113f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dataset">
+      <UniqueIdentifier>{4858e622-a86d-4a3f-8ecd-9e61edb6e78d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="utils_tutorial.cpp">
+      <Filter>tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="main_tutorial.cpp">
+      <Filter>tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="anchors_tutorial.cpp">
+      <Filter>tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="YOLOv4.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="CSPBlock.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="CSPDarknet53.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Mish.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="PANet.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="ResidualBlock.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="SPPNet.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="YOLOv4_MSELoss.cpp">
+      <Filter>Loss</Filter>
+    </ClCompile>
+    <ClCompile Include="YOLOv4_Loss.cpp">
+      <Filter>Loss</Filter>
+    </ClCompile>
+    <ClCompile Include="YOLOv4_Coder.cpp">
+      <Filter>Loss</Filter>
+    </ClCompile>
+    <ClCompile Include="YOLOv4_BCELoss.cpp">
+      <Filter>Loss</Filter>
+    </ClCompile>
+    <ClCompile Include="YOLOv4_Anchor.cpp">
+      <Filter>Loss</Filter>
+    </ClCompile>
+    <ClCompile Include="util.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml2.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="VOCDataset.cpp">
+      <Filter>Dataset</Filter>
+    </ClCompile>
+    <ClCompile Include="transform.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="anchors_tutorial.h">
+      <Filter>tutorial</Filter>
+    </ClInclude>
+    <ClInclude Include="utils_tutorial.h">
+      <Filter>tutorial</Filter>
+    </ClInclude>
+    <ClInclude Include="CSPBlock.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="CSPDarknet53.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Mish.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="PANet.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="ResidualBlock.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="SPPNet.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="YOLOv4.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="YOLOv4_MSELoss.h">
+      <Filter>Loss</Filter>
+    </ClInclude>
+    <ClInclude Include="YOLOv4_BCELoss.h">
+      <Filter>Loss</Filter>
+    </ClInclude>
+    <ClInclude Include="YOLOv4_Coder.h">
+      <Filter>Loss</Filter>
+    </ClInclude>
+    <ClInclude Include="YOLOv4_Loss.h">
+      <Filter>Loss</Filter>
+    </ClInclude>
+    <ClInclude Include="YOLOv4_Anchor.h">
+      <Filter>Loss</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml2.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="VOCDataset.h">
+      <Filter>Dataset</Filter>
+    </ClInclude>
+    <ClInclude Include="transform.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
